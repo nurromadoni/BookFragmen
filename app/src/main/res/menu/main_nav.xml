@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:checkableBehavior="single">
+		<item android:title="Materi"
+			android:checked="true"	>
+			<item
+				android:title="Jaringan Dasar"
+				android:id="@+id/nav_jaringandasar"/>
+				<item android:title="Simulasi Digital"
+					android:id="@+id/nav_simdig"/>
+				<item android:title="Pemrograman Web"
+					android:id="@+id/nav_pemrogweb"/>
+				<item android:title="Pemrograman Android"
+					android:id="@+id/nav_pemrogandroid"/>
+		</item>
+	</group>
+	
+	<item android:title="Lainnya">
+		<menu>
+		<item android:title="Exit"
+			android:id="@+id/metu"/>
+		</menu>
+	</item>
+
+</menu>
